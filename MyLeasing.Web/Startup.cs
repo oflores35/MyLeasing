@@ -57,6 +57,7 @@ namespace MyLeasing.Web
             services.AddScoped<IUserHelper, UserHelper>();// cada vez que lo nesecita
             services.AddScoped<ICombosHelper, CombosHelper>();
             services.AddScoped<IComverterHelper, ComverterHelper>();
+            services.AddScoped<IImageHelper, ImageHelper>();
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
